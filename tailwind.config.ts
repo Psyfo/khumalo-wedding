@@ -17,6 +17,7 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        weddingPink: '#FEF1EC',
       },
       fontFamily: {
         brandon: ['BrandonGrotesque', 'sans-serif'],
