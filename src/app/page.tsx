@@ -1,5 +1,6 @@
 'use client';
 import Header from './Header/Header';
+import Schedule from './Schedule/Schedule';
 import Synopsis from './Synopsis/Synopsis';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -10,7 +11,7 @@ export default function Home() {
         <Header />
       </ParallaxProvider>
       <Synopsis />
-      <main className=''></main>
+      <Schedule />
     </div>
   );
 }
