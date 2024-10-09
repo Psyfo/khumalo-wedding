@@ -37,7 +37,6 @@ const Synopsis: React.FC = () => {
 
   return (
     <section
-      id='synopsis'
       ref={sectionRef}
       className='flex flex-col justify-center md:flex-row gap-8 lg:gap-16 py-24 px-8'
     >
