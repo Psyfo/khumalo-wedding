@@ -2,6 +2,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
+/* eslint-disable react-hooks/exhaustive-deps */
+
 const Synopsis: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -37,7 +39,7 @@ const Synopsis: React.FC = () => {
     <section
       id='synopsis'
       ref={sectionRef}
-      className='bg-[#efefef] flex flex-col justify-center md:flex-row gap-8 lg:gap-16 py-24 px-4'
+      className='flex flex-col justify-center md:flex-row gap-8 lg:gap-16 py-24 px-8'
     >
       <div className='lg:max-w-[25rem]'>
         <motion.h3
