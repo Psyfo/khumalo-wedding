@@ -51,7 +51,7 @@ const Schedule: React.FC = () => {
             <p className=''>321 Border Road East</p>
             <p className=''>Pretoria, GP</p>
             <button
-              className='w-full mt-4 px-6 py-2 border border-gray-500 text-gray-500 font-calibri text-[1rem] md:text-[1.4rem] rounded hover:bg-gray-100 transition duration-300'
+              className='w-full max-w-[20rem] mt-4 px-6 py-2 border border-gray-500 text-gray-500 font-calibri text-[1rem] md:text-[1.4rem] hover:bg-orange-600 hover:text-white transition duration-300'
               onClick={() =>
                 window.open(
                   'https://maps.app.goo.gl/umpMaRVjkeLveji37',
