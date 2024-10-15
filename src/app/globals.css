@@ -88,6 +88,37 @@ body {
     font-style: normal;
 }
 
+/* Canela Regular - Trial Version */
+@font-face {
+    font-family: 'Canela Trial';
+    src: url('/fonts/Canela-Regular-Trial.woff2') format('woff2');
+    font-weight: 400;
+    /* Regular weight */
+    font-style: normal;
+    font-display: swap;
+    /* Helps with performance */
+}
+
+/* Canela Medium - Trial Version */
+@font-face {
+    font-family: 'Canela Trial';
+    src: url('/fonts/Canela-Medium-Trial.woff2') format('woff2');
+    font-weight: 500;
+    /* Medium weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela Bold - Trial Version */
+@font-face {
+    font-family: 'Canela Trial';
+    src: url('/fonts/Canela-Bold-Trial.woff2') format('woff2');
+    font-weight: 700;
+    /* Bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;

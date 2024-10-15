@@ -22,6 +22,8 @@ const config: Config = {
       fontFamily: {
         brandon: ['BrandonGrotesque', 'sans-serif'],
         calibri: ['Calibri', 'sans-serif'],
+        canela: ['Canela', 'serif'],
+        geist: ['Geist', 'sans-serif'],
       },
     },
   },
