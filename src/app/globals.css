@@ -88,33 +88,79 @@ body {
     font-style: normal;
 }
 
-/* Canela Regular - Trial Version */
+/* Canela Thin */
 @font-face {
-    font-family: 'Canela Trial';
-    src: url('/fonts/Canela-Regular-Trial.woff2') format('woff2');
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Thin.woff2') format('woff2'),
+        url('/fonts/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+    /* Thin */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela Light */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Light.woff2') format('woff2'),
+        url('/fonts/Canela-Light.woff') format('woff');
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela Regular */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Regular.woff2') format('woff2'),
+        url('/fonts/Canela-Regular.woff') format('woff');
     font-weight: 400;
-    /* Regular weight */
+    /* Regular */
     font-style: normal;
     font-display: swap;
-    /* Helps with performance */
 }
 
-/* Canela Medium - Trial Version */
+/* Canela Medium */
 @font-face {
-    font-family: 'Canela Trial';
-    src: url('/fonts/Canela-Medium-Trial.woff2') format('woff2');
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Medium.woff2') format('woff2'),
+        url('/fonts/Canela-Medium.woff') format('woff');
     font-weight: 500;
-    /* Medium weight */
+    /* Medium */
     font-style: normal;
     font-display: swap;
 }
 
-/* Canela Bold - Trial Version */
+/* Canela SemiBold */
 @font-face {
-    font-family: 'Canela Trial';
-    src: url('/fonts/Canela-Bold-Trial.woff2') format('woff2');
+    font-family: 'Canela';
+    src: url('/fonts/Canela-SemiBold.woff2') format('woff2'),
+        url('/fonts/Canela-SemiBold.woff') format('woff');
+    font-weight: 600;
+    /* SemiBold */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela Bold */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Bold.woff2') format('woff2'),
+        url('/fonts/Canela-Bold.woff') format('woff');
     font-weight: 700;
-    /* Bold weight */
+    /* Bold */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela Black */
+@font-face {
+    font-family: 'Canela';
+    src: url('/fonts/Canela-Black.woff2') format('woff2'),
+        url('/fonts/Canela-Black.woff') format('woff');
+    font-weight: 900;
+    /* Black */
     font-style: normal;
     font-display: swap;
 }
