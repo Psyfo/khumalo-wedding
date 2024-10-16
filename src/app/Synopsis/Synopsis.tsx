@@ -45,7 +45,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0, y: -20 }} // Start hidden and slightly above
           animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animate to visible
           transition={{ duration: 0.5 }}
-          className='font-canela font-light uppercase text-gray-700 text-[1.2rem] lg:text-[1.5rem]'
+          className='font-calibri uppercase text-gray-700 text-[1.5rem] lg:text-[1.5rem]'
         >
           Zamani Khumalo
         </motion.h3>
@@ -53,7 +53,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-calibri text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify'
+          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify'
         >
           Ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus
           feugiat, molestie ipsum id, fermentum nunc. Nulla facilisi. Nullam nec
