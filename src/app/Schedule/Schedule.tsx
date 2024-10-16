@@ -68,7 +68,7 @@ const Schedule: React.FC = () => {
         </div>
 
         {/* Church Image */}
-        <div className='w-full max-w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
+        <div className='w-full max-w-[25rem] h-[25rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
           <Image
             src='/images/schedule/church1.png'
             alt='Church'
