@@ -32,6 +32,7 @@ body {
     color: var(--foreground);
     background: var(--background);
     font-family: Canela, serif;
+    overflow-x: hidden;
 }
 
 @font-face {
