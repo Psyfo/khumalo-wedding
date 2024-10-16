@@ -12,7 +12,7 @@ const Dress: React.FC = () => {
       </div>
 
       {/* Dress Code Details */}
-      <div className='font-canela text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem]'>
+      <div className='font-canela font-light text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem]'>
         <p className='text-[1.2rem] md:text-[1.2rem]'>
           The suggested Wedding Dress Code is{' '}
           <span className='font-bold'>Boho Chic / Autumn meets Spring</span>

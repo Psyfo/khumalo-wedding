@@ -17,7 +17,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p className=''>Time</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela font-light  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>15:00 (No earlier)</p>
             </div>
           </div>
@@ -25,11 +25,11 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Address</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela font-light  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>Plot 16, Boschkop Road</p>
               <p className=''>Makotopong Estate</p>
               <button
-                className='w-full max-w-[20rem] mt-4 px-6 py-2 border border-gray-700 text-gray-700 font-calibri text-[1rem] md:text-[1.4rem] hover:bg-orange-600 hover:text-white transition duration-300'
+                className='w-full max-w-[20rem] mt-4 px-6 py-2 border border-gray-500 text-gray-500 font-calibri text-[1rem] md:text-[1.4rem] hover:bg-orange-600 hover:text-white transition duration-300'
                 onClick={() =>
                   window.open(
                     'https://maps.app.goo.gl/2AoMeZ7mzbDqr2Gd9',
@@ -45,7 +45,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p> Shuttle Service </p>
             </div>
-            <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela font-light text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>The Capital Hotel Menlyn Maine (Optional)</p>
               <p>
                 <span className='font-bold'>Address: </span> 194 Bancor Avenue,
@@ -70,7 +70,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Parking/Security</p>
             </div>
-            <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela font-light text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>
                 There will be hired security onsite at the Reception Venue
               </p>
