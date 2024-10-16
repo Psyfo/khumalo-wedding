@@ -14,7 +14,7 @@ const Reception: React.FC = () => {
       <div className='w-full px-8 lg:px-[4rem] flex flex-col lg:flex-row'>
         <div className='lg:w-[60%]'>
           <div className='flex mb-4'>
-            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
+            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p className=''>Time</p>
             </div>
             <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
@@ -22,7 +22,7 @@ const Reception: React.FC = () => {
             </div>
           </div>
           <div className='flex mb-4'>
-            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
+            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Address</p>
             </div>
             <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
@@ -42,7 +42,7 @@ const Reception: React.FC = () => {
             </div>
           </div>
           <div className='flex mb-4'>
-            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
+            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p> Shuttle Service </p>
             </div>
             <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
@@ -67,7 +67,7 @@ const Reception: React.FC = () => {
             </div>
           </div>
           <div className='flex mb-4'>
-            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
+            <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.7rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Parking/Security</p>
             </div>
             <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
