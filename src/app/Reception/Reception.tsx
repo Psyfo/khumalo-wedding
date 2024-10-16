@@ -3,9 +3,9 @@ import React from 'react';
 
 const Reception: React.FC = () => {
   return (
-    <section className='w-screen flex flex-col items-center my-[4rem]'>
+    <section className='w-screen flex flex-col items-center my-[4rem] overflow-x-hidden'>
       {/* Reception Details */}
-      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[3rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
+      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
         <h1 className='transform translate-x-[0%] '>Reception</h1>
         <h1 className='transform translate-x-[20%]'>Details</h1>
       </div>
@@ -17,7 +17,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p className=''>Time</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>15:00 (No earlier)</p>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Address</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>Plot 16, Boschkop Road</p>
               <p className=''>Makotopong Estate</p>
               <button
@@ -45,7 +45,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p> Shuttle Service </p>
             </div>
-            <div className='flex-1 font-canela text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>The Capital Hotel Menlyn Maine (Optional)</p>
               <p>
                 <span className='font-bold'>Address: </span> 194 Bancor Avenue,
@@ -70,7 +70,7 @@ const Reception: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p>Parking/Security</p>
             </div>
-            <div className='flex-1 font-canela text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>
                 There will be hired security onsite at the Reception Venue
               </p>
@@ -84,7 +84,7 @@ const Reception: React.FC = () => {
         </div>
 
         {/* Reception Venue Imaae */}
-        <div className='w-[25rem] h-[25rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
+        <div className='w-full max-w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
           <Image
             src='/images/schedule/church1.png'
             alt='Church'

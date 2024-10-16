@@ -3,9 +3,9 @@ import React from 'react';
 
 const Schedule: React.FC = () => {
   return (
-    <section className='w-screen flex flex-col items-center my-[4rem]  '>
+    <section className='w-screen flex flex-col items-center my-[4rem]  overflow-x-hidden'>
       {/* Church Service */}
-      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[3rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
+      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
         <h1 className='transform translate-x-[0%] '>Church</h1>
         <h1 className='transform translate-x-[20%]'>Service</h1>
       </div>
@@ -17,7 +17,7 @@ const Schedule: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start uppercase'>
               <p className=''>Date</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>Saturday 26 October 2024</p>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Schedule: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start  uppercase'>
               <p> Guest Arrival </p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>11:00</p>
             </div>
           </div>
@@ -33,14 +33,14 @@ const Schedule: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start  uppercase'>
               <p>Service Begins</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem]'>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem]'>
               <p className=''>12:00</p>
               <p className=''>
                 NB:{' '}
                 <span className='underline font-bold'>
                   Please arrive before 11h45am
                 </span>{' '}
-                to secure seating and ensure an interrupted church service.
+                to secure seating and ensure an uninterrupted church service.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Schedule: React.FC = () => {
             <div className='w-1/3 md:w-1/3 font-calibri text-gray-700 text-[0.9rem] md:text-[1.1rem] leading-[2rem] flex items-start  uppercase'>
               <p>Address</p>
             </div>
-            <div className='flex-1 font-canela  text-gray-700 text-[1.2rem] md:text-[1.4rem] leading-[2rem] '>
+            <div className='flex-1 font-canela  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
               <p className=''>St John Fisher Catholic Church</p>
               <p className=''>321 Border Road East</p>
               <p className=''>Pretoria, GP</p>
@@ -68,7 +68,7 @@ const Schedule: React.FC = () => {
         </div>
 
         {/* Church Image */}
-        <div className='w-[25rem] h-[25rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
+        <div className='w-full max-w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
           <Image
             src='/images/schedule/church1.png'
             alt='Church'

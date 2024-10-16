@@ -4,9 +4,9 @@ import React from 'react';
 
 const Dress: React.FC = () => {
   return (
-    <section className='w-screen flex flex-col items-center my-[4rem]'>
+    <section className='w-screen flex flex-col items-center my-[4rem] overflow-x-hidden'>
       {/* Dress Code */}
-      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[3rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
+      <div className='w-full px-8 font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4.5rem] uppercase my-[4rem]'>
         <h1 className='transform translate-x-[0%] '>Dress</h1>
         <h1 className='transform translate-x-[20%]'>Code</h1>
       </div>
