@@ -40,14 +40,14 @@ const Synopsis: React.FC = () => {
       ref={sectionRef}
       className='flex flex-col justify-center md:flex-row gap-8 lg:gap-16 py-24 px-8'
     >
-      <div className='lg:max-w-[25rem]'>
+      <div className='lg:max-w-[50rem]'>
         <motion.h3
           initial={{ opacity: 0, y: -20 }} // Start hidden and slightly above
           animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animate to visible
           transition={{ duration: 0.5 }}
           className='font-calibri uppercase text-gray-700 text-[1.5rem] lg:text-[1.5rem]'
         >
-          Zamani Khumalo
+          Our Story
         </motion.h3>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
@@ -61,31 +61,11 @@ const Synopsis: React.FC = () => {
           Morbi ornare, libero. Lorem ipsum dolor sit amet, consectetur. Nulla.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
           purus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Nulla nec purus feugiat.
-        </motion.p>
-      </div>
-      <div className='lg:max-w-[25rem]'>
-        <motion.h3
-          initial={{ opacity: 0, y: -20 }} // Start hidden and slightly above
-          animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animate to visible
-          transition={{ duration: 0.5 }}
-          className='font-calibri uppercase text-gray-700 text-[1.5rem] lg:text-[1.5rem]'
-        >
-          Palesa Lebona
-        </motion.h3>
-        <motion.p
-          initial={{ opacity: 0 }} // Start hidden
-          animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
-          transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify'
-        >
-          Ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus
-          feugiat, molestie ipsum id, fermentum nunc. Nulla facilisi. Nullam nec
-          nisi. Donec quis turpis in nulla iaculis venenatis. Vivamus at sapien.
-          Morbi ornare, libero. Lorem ipsum dolor sit amet, consectetur. Nulla.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-          purus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Nulla nec purus feugiat.
+          elit. Nulla nec purus feugiat. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla nec purus feugiat. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nulla nec purus feugiat. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </motion.p>
       </div>
     </section>

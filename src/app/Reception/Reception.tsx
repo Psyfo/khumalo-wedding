@@ -3,9 +3,9 @@ import React from 'react';
 
 const Reception: React.FC = () => {
   return (
-    <section className='w-screen flex flex-col items-center my-[4rem] overflow-x-hidden'>
+    <section className='w-screen flex flex-col items-center my-[4rem] overflow-x-hidden border border-t-orange-600'>
       {/* Reception Details */}
-      <div className='mr-auto px-[2rem] lg:px-[12rem] font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize my-[4rem]'>
+      <div className='mr-auto px-[2rem] lg:px-[12rem] font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize leading-none my-[4rem]'>
         <h1 className='transform translate-x-[0%] '>Reception</h1>
         <h1 className='transform translate-x-[4rem]'>Details</h1>
       </div>
@@ -84,9 +84,9 @@ const Reception: React.FC = () => {
         </div>
 
         {/* Reception Venue Imaae */}
-        <div className='w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
+        <div className='w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center overflow-hidden'>
           <Image
-            src='/images/schedule/church1.png'
+            src='/images/schedule/reception1.jpg'
             alt='Church'
             className='rounded-full w-full h-full'
             style={{ objectFit: 'cover', objectPosition: 'center' }}
