@@ -68,13 +68,12 @@ const Schedule: React.FC = () => {
         </div>
 
         {/* Church Image */}
-        <div className='w-full w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
+        <div className='w-[20rem] h-[20rem] mx-auto lg:my-auto mt-[5rem] flex items-center justify-center'>
           <Image
             src='/images/schedule/church2.jpg'
             alt='Church'
             className='rounded-full w-full h-full'
-            objectFit='cover'
-            objectPosition='center'
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
             width={500}
             height={500}
           />
