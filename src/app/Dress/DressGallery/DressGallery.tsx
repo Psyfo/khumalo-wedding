@@ -4,19 +4,26 @@ import React from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // Import Swiper styles
 
 const DressGallery: React.FC = () => {
   // Array of different image sizes
-  const images = [
-    'https://picsum.photos/400/500',
-    'https://picsum.photos/300/400',
-    'https://picsum.photos/450/300',
-    'https://picsum.photos/500/600',
-    'https://picsum.photos/350/450',
-    'https://picsum.photos/600/500',
-    'https://picsum.photos/400/600',
-    'https://picsum.photos/450/450',
+  const images: any[] = [
+    { id: 1, src: '/images/dress/wed boho 1.jpg' },
+    { id: 2, src: '/images/dress/wed boho 2.jpg' },
+    { id: 3, src: '/images/dress/wed boho 3.jpg' },
+    { id: 4, src: '/images/dress/wed boho 4.jpg' },
+    { id: 5, src: '/images/dress/wed boho 5.jpg' },
+    { id: 6, src: '/images/dress/wed boho 6.jpg' },
+    { id: 7, src: '/images/dress/wed boho 7.jpg' },
+    { id: 8, src: '/images/dress/wed boho 8.jpg' },
+    { id: 9, src: '/images/dress/wed boho 9.jpg' },
+    { id: 10, src: '/images/dress/wed boho 10.jpg' },
+    { id: 11, src: '/images/dress/wed boho 11.jpg' },
+    { id: 12, src: '/images/dress/wed boho 12.jpg' },
+    { id: 13, src: '/images/dress/wed boho 13.jpg' },
   ];
 
   return (
@@ -45,17 +52,17 @@ const DressGallery: React.FC = () => {
           },
         }} // Change this to adjust the number of slides shown at once
       >
-        {images.map((src, idx) => (
+        {images.map((image, idx) => (
           <SwiperSlide key={idx}>
-            <div className='h-[60vh] mg:h-[70vh] object-cover'>
+            <div className='h-[75vh] mg:h-[80vh] object-cover'>
               <Image
-                src={src}
+                src={image.src}
                 alt={`Gallery item ${idx + 1}`}
                 width={400} // Set a standard width
                 height={500}
                 quality={100}
                 unoptimized // Set a standard height
-                className='min-w-full h-full object-cover rounded-lg shadow-lg'
+                className='w-full h-auto min-h-full object-cover object-center rounded-lg shadow-lg'
               />
             </div>
           </SwiperSlide>
