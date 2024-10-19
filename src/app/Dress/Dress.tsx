@@ -6,7 +6,7 @@ const Dress: React.FC = () => {
   return (
     <section className='w-screen flex flex-col items-center my-[4rem] overflow-x-hidden'>
       {/* Dress Code */}
-      <div className='mr-auto px-8 font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize my-[4rem]'>
+      <div className='mr-auto px-[2rem] lg:px-[12rem] font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize my-[4rem]'>
         <h1 className='transform translate-x-[0%] '>Dress</h1>
         <h1 className='transform translate-x-[4rem]'>Code</h1>
       </div>
@@ -20,7 +20,7 @@ const Dress: React.FC = () => {
       </div>
 
       {/* Slider or Collage */}
-      <div className='w-screen lg:px-[15%]'>
+      <div className='w-screen lg:px-[12rem]'>
         <DressGallery />
       </div>
 
