@@ -9,9 +9,10 @@ const Booklet: React.FC = () => {
           Wedding Booklet
         </h2>
         <p className='font-calibri text-gray-600 text-[1rem] md:text-[1.2rem]'>
-          Discover all the details for the big day! Click below to download your
-          copy of the wedding booklet and keep it with you for all the special
-          moments.
+          Our wedding booklet includes everything you need to know for the big
+          day! Inside, you’ll find information about the ceremony, reception,
+          accommodation options, transportation, and more. Click below to
+          download your copy and be fully prepared for the celebration.
         </p>
       </div>
 
