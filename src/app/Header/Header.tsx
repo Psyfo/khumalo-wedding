@@ -2,41 +2,56 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useParallax } from 'react-scroll-parallax';
 
 const Header = () => {
-  // Animation variants for the background
+  // Animation variants for Framer Motion
   const backgroundVariants = {
-    hidden: { y: '100%', opacity: 0 }, // Start from below the screen
-    visible: { y: '0%', opacity: 1, transition: { duration: 1.2 } }, // Slide up to its position
+    hidden: { y: '100%', opacity: 0 },
+    visible: { y: '0%', opacity: 1, transition: { duration: 1.2 } },
   };
 
-  // Animation variants for text
   const headingVariants = {
-    hidden: { opacity: 0, y: 50 }, // Start below the screen with opacity 0
-    visible: () => ({
+    hidden: { opacity: 0, y: 50 },
+    visible: {
       opacity: 1,
       y: 0,
-      transition: { delay: 0.8, duration: 0.9 }, // Adding extra delay
-    }),
+      transition: { delay: 0.8, duration: 0.9 },
+    },
   };
+
   const textVariants = {
-    hidden: { opacity: 0, y: 0 }, // Start below the screen with opacity 0
+    hidden: { opacity: 0 },
     visible: (i: number) => ({
       opacity: 1,
       y: 0,
-      transition: { delay: i * 1 + 0.5, duration: 0.9 }, // Adding extra delay
+      transition: { delay: i * 1 + 0.5, duration: 0.9 },
     }),
   };
 
+  // Parallax for the background and text
+  const backgroundParallax = useParallax<HTMLDivElement>({
+    speed: -20, // Higher negative value means faster scroll effect for the background
+  });
+
+  const headingParallax = useParallax<HTMLHeadingElement>({
+    speed: 10, // Positive values make the heading scroll slower than the background
+  });
+
+  const textParallax = useParallax<HTMLParagraphElement>({
+    speed: 5, // Subtle parallax for the text
+  });
+
   return (
     <div className='relative w-screen h-screen overflow-hidden'>
-      {/* Background Image */}
+      {/* Background Image with Parallax */}
       <motion.div
         initial='hidden'
         animate='visible'
         variants={backgroundVariants}
+        ref={backgroundParallax.ref} // Applying the parallax effect
         className='absolute top-0 left-0 w-full h-full bg-cover bg-center'
-        style={{ backgroundImage: "url('/images/header/header.jpg')" }}
+        style={{ backgroundImage: "url('/images/header/header3.jpg')" }}
       />
 
       {/* Text Container */}
@@ -45,7 +60,7 @@ const Header = () => {
           initial='hidden'
           animate='visible'
           variants={headingVariants}
-          custom={0} // Index for delay
+          ref={headingParallax.ref} // Applying the parallax effect
           className='text-[4.5rem] md:text-[5rem] font-canela font-thin text-white text-center leading-none capitalize flex flex-col lg:flex-row gap-4 lg:gap-8'
         >
           <span>Zamani</span>
@@ -63,7 +78,8 @@ const Header = () => {
           initial='hidden'
           animate='visible'
           variants={textVariants}
-          custom={1} // Index for delay
+          custom={1}
+          ref={textParallax.ref} // Applying the parallax effect
           className='text-[1.3rem] md:text-[1.5rem] text-white text-center font-canela font-thin mt-4'
         >
           Are Getting Married, October 26, 2024
