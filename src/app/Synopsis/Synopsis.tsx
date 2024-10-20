@@ -47,7 +47,7 @@ const Synopsis: React.FC = () => {
           transition={{ duration: 0.5 }}
           className='font-calibri uppercase text-center text-gray-700 text-[1.5rem] lg:text-[1.5rem] mb-8'
         >
-          Our Fairytail
+          Our Fairytale
         </motion.h3>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
