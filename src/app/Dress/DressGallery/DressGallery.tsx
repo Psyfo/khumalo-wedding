@@ -24,6 +24,10 @@ const DressGallery: React.FC = () => {
     { id: 11, src: '/images/dress/wed boho 11.jpg' },
     { id: 12, src: '/images/dress/wed boho 12.jpg' },
     { id: 13, src: '/images/dress/wed boho 13.jpg' },
+    { id: 14, src: '/images/dress/wed boho 14.jpg' },
+    { id: 15, src: '/images/dress/wed boho 15.jpg' },
+    { id: 16, src: '/images/dress/wed boho 16.jpg' },
+    { id: 17, src: '/images/dress/wed boho 17.jpg' },
   ];
 
   return (
