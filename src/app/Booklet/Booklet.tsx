@@ -14,6 +14,20 @@ const Booklet: React.FC = () => {
           accommodation options, transportation, and more. Click below to
           download your copy and be fully prepared for the celebration.
         </p>
+
+        {/* Wedding Registry Link */}
+        <p className='font-calibri text-gray-600 text-[1rem] md:text-[1.2rem] mt-4'>
+          Don’t forget to visit our{' '}
+          <a
+            href='https://khumalowedding.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-orange-600 hover:underline'
+          >
+            wedding registry
+          </a>{' '}
+          to see how you can contribute to our new chapter!
+        </p>
       </div>
 
       <div className='mb-[2rem] w-[6rem] h-[6rem] shadow-none'>
