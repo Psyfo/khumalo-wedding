@@ -30,7 +30,7 @@ html {
 
 body {
     color: var(--foreground);
-    background: var(--background);
+    background: #FEF1EC;
     font-family: Canela, serif;
     overflow-x: hidden;
 }
