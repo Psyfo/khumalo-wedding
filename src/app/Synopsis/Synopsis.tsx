@@ -53,10 +53,10 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          <span className='font-italic'>Once upon at time,</span> there was a
-          young man named Zamani Khumalo. He had decided to spend his short 2008
+          <span className='italic'>Once upon at time,</span> there was a young
+          man named Zamani Khumalo. He had decided to spend his short 2008
           December holiday with his mother, Gugu Khumalo in South Africa (Kloof,
           KwaZulu -Natal) before heading back to study in the US.
         </motion.p>
@@ -64,7 +64,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           During his visit, a varsity friend for his mother’s named Pearl
           Gwamanda paid them a visit to reconnect and to also collect the keys
@@ -75,7 +75,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           Upon opening the door to receive and welcome them at the door,
           Zamani’s and Palesa’s eyes locked and they spoke for hours as if the
@@ -87,7 +87,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           However, their powerful and unwavering connection continued to grow
           stronger and stronger despite distance and with the help of Skype
@@ -98,7 +98,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           Through a long distance relationship spanning multiple locations (i.e.
           Texas, Oklahoma, Joburg, Cape Town, Pretoria, Los Angeles, Durban) and
@@ -111,7 +111,7 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           On 27 October 2021 Zamani won his bet of a surprise wedding proposal:
           he proposed to Palesa on the very same beach where they had solidified
@@ -122,12 +122,20 @@ const Synopsis: React.FC = () => {
           initial={{ opacity: 0 }} // Start hidden
           animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
-          className='font-canela font-light text-gray-400 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
+          className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
           Being different, unconventional and true to themselves for the past 14
           years, they look forward to embarking on their journey as husband and
           wife in creating more fairytales and taking a page out of Frank
           Sinatra’s book: doing love, life and everything else, Their Way.
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }} // Start hidden
+          animate={isVisible ? { opacity: 1 } : {}} // Animate to visible
+          transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
+          className='font-canela font-light font-italic italic text-gray-700 text-[1rem] lg:text-[1.2rem] text-right mb-4'
+        >
+          The End
         </motion.p>
       </div>
     </section>
