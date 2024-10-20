@@ -66,10 +66,9 @@ const Synopsis: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
           className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          During his visit, a varsity friend for his mother’s named Pearl
-          Gwamanda paid them a visit to reconnect and to also collect the keys
-          for the guesthouse, where she and her daughter Palesa Lebona would be
-          staying.
+          During his visit, a varsity friend to his mother named Pearl Gwamanda
+          paid them a visit, to reconnect and to also collect the keys for the
+          guesthouse, where she and her daughter Palesa Lebona would be staying.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
@@ -77,11 +76,11 @@ const Synopsis: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
           className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          Upon opening the door to receive and welcome them at the door,
-          Zamani’s and Palesa’s eyes locked and they spoke for hours as if the
-          had known each other years. They continued to have more riveting
-          conversations on the beach during the last 2 days of his holiday.
-          Alas, after 3 days he had to sadly bid her adieu and return to the US.
+          Upon opening the door to receive and welcome them, Zamani’s and
+          Palesa’s eyes locked and they spoke for hours as if they had known
+          each other years. They continued to have more riveting conversations
+          on the beach during the last 2 days of his holiday. Alas, he then had
+          to sadly bid her adieu and return to the US.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
@@ -104,7 +103,7 @@ const Synopsis: React.FC = () => {
           Texas, Oklahoma, Joburg, Cape Town, Pretoria, Los Angeles, Durban) and
           Palesa’s career change from Marketing & Logistics to Film; they have
           always loved, supported and been each other’s rock even when the world
-          didn’t understand/ questioned their relationship or Palesa’s career
+          didn’t understand/ questioned their relationship and Palesa’s career
           change.
         </motion.p>
         <motion.p
@@ -113,10 +112,11 @@ const Synopsis: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.5 }} // Delay for paragraph
           className='font-canela font-light text-gray-700 text-[1rem] lg:text-[1.2rem] text-justify mb-4'
         >
-          On 27 October 2021 Zamani won his bet of a surprise wedding proposal:
-          he proposed to Palesa on the very same beach where they had solidified
-          their connection in 2008, just the two of them wearing tracksuits, no
-          makeup, no hair- just the two of them in their purist form.
+          On 27 October 2021, Zamani won his bet of a surprise-wedding proposal,
+          where he proposed to Palesa on the very same beach where they had
+          solidified their connection in 2008; just the two of them wearing
+          tracksuits, no makeup, no fancy hair nor nails- just the two of them
+          in their purist form.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }} // Start hidden
