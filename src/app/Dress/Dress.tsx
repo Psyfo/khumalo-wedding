@@ -12,11 +12,26 @@ const Dress: React.FC = () => {
       </div>
 
       {/* Dress Code Details */}
-      <div className='font-canela font-light text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem]'>
+      <div className='font-canela font-light text-gray-500 text-center w-[90%] md:w-[60%] lg:w-[40%] leading-[1.75rem] mb-[2rem]'>
         <p className='text-[1.2rem] md:text-[1.2rem]'>
           The suggested Wedding Dress Code is{' '}
           <span className='font-bold'>Boho Chic / Autumn meets Spring</span>
         </p>
+      </div>
+
+      {/* Pinterest Link */}
+      <div className='font-calibri text-center mb-[2rem]'>
+        <p className='text-[1rem] text-gray-600'>
+          For inspiration, explore our Pinterest board to see potential looks:
+        </p>
+        <a
+          href='https://www.pinterest.com/lebonaamp/wedding-guest-boho-chic-autumn-meets-spring/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-orange-600 hover:text-orange-800 hover:underline transition-colors duration-300 text-[1.1rem]'
+        >
+          Visit the Pinterest Board
+        </a>
       </div>
 
       {/* Slider or Collage */}
