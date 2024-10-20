@@ -26,7 +26,7 @@ const Reception: React.FC = () => {
               <p>Address</p>
             </div>
             <div className='flex-1 font-canela font-light  text-gray-700 text-[1rem] md:text-[1.4rem] leading-[2rem] '>
-              <p className=''>Plot 16, Boschkop Road</p>
+              <p className=''>Plot 15, Boschkop Road</p>
               <p className=''>Makotopong Estate</p>
               <button
                 className='w-full max-w-[20rem] mt-4 px-6 py-2 border border-gray-500 text-gray-500 font-calibri text-[1rem] md:text-[1.4rem] hover:bg-orange-600 hover:text-white transition duration-300'
