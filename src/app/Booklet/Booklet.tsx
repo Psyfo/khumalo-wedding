@@ -52,6 +52,13 @@ const Booklet: React.FC = () => {
           something, please click on the link below.
           <br />
           <br />
+          <span className='font-bold'>Note:</span> You will need the password{' '}
+          <span className='font-bold text-orange-600'>
+            &quot;foresthills&quot;
+          </span>{' '}
+          to access the registry.
+          <br />
+          <br />
           Thank you for celebrating with us!
         </p>
 
