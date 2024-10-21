@@ -51,7 +51,7 @@ const Header = () => {
         variants={backgroundVariants}
         ref={backgroundParallax.ref} // Applying the parallax effect
         className='absolute top-0 left-0 w-full h-full bg-cover bg-center'
-        style={{ backgroundImage: "url('/images/header/header3.jpg')" }}
+        style={{ backgroundImage: "url('/images/header/header3-min.jpg')" }}
       />
 
       {/* Text Container */}
