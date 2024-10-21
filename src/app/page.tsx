@@ -1,6 +1,7 @@
 'use client';
 import Booklet from './Booklet/Booklet';
 import Dress from './Dress/Dress';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Reception from './Reception/Reception';
 import Schedule from './Schedule/Schedule';
@@ -18,6 +19,7 @@ export default function Home() {
       <Reception />
       <Dress />
       <Booklet />
+      <Footer />
     </div>
   );
 }
