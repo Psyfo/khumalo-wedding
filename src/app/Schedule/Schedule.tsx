@@ -5,9 +5,20 @@ const Schedule: React.FC = () => {
   return (
     <section className='w-screen flex flex-col items-center my-[4rem]  overflow-x-hidden border border-t-orange-600'>
       {/* Church Service */}
-      <div className='mr-auto px-[2rem] lg:px-[12rem] font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize leading-none my-[4rem]'>
-        <h1 className='transform translate-x-[0%] '>Church</h1>
-        <h1 className='transform translate-x-[4rem]'>Service</h1>
+      <div className='mr-auto px-[2rem] lg:px-[12rem] font-canela font-thin text-gray-700 text-[2.5rem] md:text-[3.9rem] lg:text-[4rem] capitalize leading-none my-[4rem] flex items-center'>
+        <div className='flex flex-col'>
+          <h1 className='transform translate-x-[0%]'>Church</h1>
+          <h1 className='transform translate-x-[4rem]'>Service</h1>
+        </div>
+        <div className='ml-[3rem] lg:ml-[4rem]'>
+          <Image
+            src='/images/schedule/icon-church-3.png'
+            alt='Church Icon'
+            height={100} // Adjust this height as necessary
+            width={100} // Adjust this width as necessary to maintain aspect ratio
+            className='object-contain h-[3.5rem] lg:h-[5rem] opacity-70'
+          />
+        </div>
       </div>
 
       {/* Info Blocks */}
