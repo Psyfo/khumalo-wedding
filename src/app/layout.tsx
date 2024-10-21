@@ -1,4 +1,5 @@
 import './globals.css';
+import PasswordProtect from './PasswordProtect';
 import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <PasswordProtect>{children}</PasswordProtect>
       </body>
     </html>
   );
