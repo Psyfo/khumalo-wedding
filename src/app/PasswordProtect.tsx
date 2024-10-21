@@ -28,7 +28,7 @@ const PasswordProtect: React.FC<{ children: React.ReactNode }> = ({
   }, []);
 
   const handleLogin = () => {
-    if (password === 'foresthills') {
+    if (password === 'fairytale') {
       const now = new Date().getTime(); // Current timestamp
       localStorage.setItem('authenticated', 'true');
       localStorage.setItem('authTimestamp', now.toString()); // Store the current time
